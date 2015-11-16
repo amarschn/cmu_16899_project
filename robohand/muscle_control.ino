@@ -1,3 +1,5 @@
+#include "muscle_control.h"
+
 /*
  * PWM the muscle for contraction or relaxation
  *  duty_cycle: Duty cycle at which to pwm the muscle

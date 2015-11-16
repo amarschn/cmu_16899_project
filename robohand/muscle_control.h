@@ -10,4 +10,4 @@
 #define M2_PIN_CONTRACT 9
 #define M2_PIN_RELAX 10
 
-void pwm_muscle(float duty_cycle, int seconds, bool contract);
+void pwm_muscle(int muscle, float duty_cycle, int seconds, bool contract);
