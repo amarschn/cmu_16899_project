@@ -2,8 +2,9 @@
 
 /*
  * PWM the muscle for contraction or relaxation
- *  duty_cycle: Duty cycle at which to pwm the muscle
- *  seconds: How long the muscle contracts/relaxes
+ *  muscle: which muscle to use, either M1 or M2
+ *  duty_cycle: Duty cycle at which to pwm the muscle, in the range 0.0 - 1.0
+ *  seconds: How long the muscle contracts/relaxes in milliseconds
  *  contract: Boolean value determining whether to use the contraction valve or the relaxation valve
  */
 void pwm_muscle(int muscle, float duty_cycle, int milliseconds, bool contract) {
